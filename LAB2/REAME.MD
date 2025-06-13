@@ -15,6 +15,7 @@ Phần lý thuyết – Mô tả khái quát về BFS và DFS, sự khác biệt
 Ví dụ minh họa thủ công – Các bước BFS và DFS được trình bày tuần tự bằng liệt kê (kèm sơ đồ Mermaid) để thấy rõ quá trình duyệt hàng đợi/ngăn xếp và tập đỉnh đã thăm. Ví dụ, quá trình BFS/DFS trên Đồ thị mẫu 1 được liệt kê từng bước, cho thấy trạng thái hàng đợi hoặc ngăn xếp và tập visited sau mỗi bước thăm nút.
 Triển khai mã Python – Định nghĩa các hàm bfs, dfs và các biến thể có trọng số, sau đó chạy thử trên các đồ thị mẫu (được khai báo sẵn dưới dạng dictionary) để in ra kết quả tìm kiếm. Người dùng có thể đối chiếu kết quả này với phần minh họa thủ công ở trên để kiểm chứng tính đúng đắn.
 Tương tác và thử nghiệm: Notebook có các bài tập yêu cầu người dùng tự thực hành, ví dụ: chỉnh sửa thuật toán BFS để đếm số nút đã thăm, hoặc chạy BFS/DFS trên đồ thị mới. Bạn có thể thử thay đổi cấu trúc đồ thị (danh sách kề) hoặc thay đổi nút bắt đầu/đích, rồi chạy lại hàm để quan sát kết quả. Việc này giúp hiểu sâu hơn cách thuật toán hoạt động trên các trường hợp khác nhau.
+
 #Mục đích và ứng dụng
 Notebook “BFS-DFS” được thiết kế cho mục đích giáo dục, thuộc học phần nhập môn Trí tuệ Nhân tạo về thuật toán tìm kiếm mù (uninformed search). Thông qua các ví dụ và bài tập trong notebook, người học có thể:
 Hiểu và triển khai thuật toán BFS và DFS trên các đồ thị vô hướng, bao gồm cả trường hợp không trọng số và có trọng số. Điều này xây dựng nền tảng về cách duyệt đồ thị một cách có hệ thống.
