@@ -1,12 +1,5 @@
 # Lab 3 – Thuật Toán Di Truyền (Genetic Algorithm) với Python
 
-> Notebook **`lab3.ipynb`** minh hoạ 5 bài tập GA: tối ưu hàm 1 biến, hàm 2 biến, phân tích tham số, so sánh phương pháp chọn lọc và trực quan hoá quần thể.
-
-<p align="center">
-  <img src="https://i.imgur.com/s5JbQpF.gif" alt="GA evolution demo" width="500">
-</p>
-
----
 
 ## 0. Tại sao cần Thuật Toán Di Truyền?
 
