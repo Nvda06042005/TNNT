@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>NB Demo</title>
+    <style>
+        body{font-family:Arial, sans-serif; margin:40px;}
+        textarea{width:100%; max-width:700px;}
+        input,select{margin:4px;}
+        button{padding:6px 12px;}
+        h2{color:#2a6;}
+        hr{margin:40px 0;}
+    </style>
+</head>
+<body>
+<h2>Sentiment Analysis (exercise 1)</h2>
+<form method="POST">
+  <textarea name="text" rows="4" placeholder="Enter an English sentence..." required></textarea><br>
+  <button type="submit">Predict Sentiment</button>
+</form>
+{% if sent_res %}
+  <p><b>Result:</b> {{ sent_res|capitalize }}</p>
+{% endif %}
+
+<hr>
+<h2>Drug Classification (exercise 2)</h2>
+<form method="POST">
+  Age <input type="number" name="age" step="any" required>
+  Sex <select name="sex"><option>M</option><option>F</option></select>
+  BP <select name="bp"><option>LOW</option><option>NORMAL</option><option>HIGH</option></select>
+  Chol <select name="chol"><option>NORMAL</option><option>HIGH</option></select>
+  Na_to_K <input type="number" name="na_to_k" step="any" required>
+  <button type="submit">Predict Drug</button>
+</form>
+{% if drug_res %}
+  <p><b>Predicted drug:</b> {{ drug_res }}</p>
+{% endif %}
+</body>
+</html>
