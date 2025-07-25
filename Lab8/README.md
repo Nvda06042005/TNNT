@@ -1,4 +1,4 @@
-# Tic‑Tac‑Toe N × N (Tkinter)
+# Minimax
 
 ## 1 – Mục đích & Nguyên lí hoạt động
 
