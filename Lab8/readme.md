@@ -1,4 +1,4 @@
-#minimax
+ # minimax
 
 1 – Mục đích & Nguyên lí hoạt động
 
